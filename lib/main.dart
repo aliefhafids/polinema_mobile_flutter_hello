@@ -98,18 +98,12 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'Maulana Alief Hafids',
             ),
-            Text(
+            const Text(
               '2031710056',
-              style: Theme.of(context).textTheme.bodyText2,
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
